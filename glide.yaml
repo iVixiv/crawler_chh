@@ -1,0 +1,13 @@
+package: cecommerce
+import:
+- package: github.com/PuerkitoBio/goquery
+  version: ^1.1.0
+- package: github.com/op/go-logging
+  version: ^1.0.0
+- package: golang.org/x/net
+- package: github.com/golibs/uuid
+- package: github.com/sclevine/agouti
+  version: dfc6680bb9fcb3f3d3b6f506a1d1e77fbc9c9613
+- package: golang.org/x/text
+  version: ^0.1.0
+- package: gopkg.in/mgo.v2

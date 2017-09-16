@@ -1,0 +1,29 @@
+hash: bffd3864e0f78bd412c617817f7b037a6bc53105cefc2804e330a76a4deb45cc
+updated: 2017-09-15T10:10:26.408145166+08:00
+imports:
+- name: github.com/andybalholm/cascadia
+  version: 349dd0209470eabd9514242c688c403c0926d266
+- name: github.com/golibs/uuid
+  version: 1dd34a9ad6c0e8dec93107f9c7425ea5713f78e1
+- name: github.com/op/go-logging
+  version: b2cb9fa56473e98db8caba80237377e83fe44db5
+- name: github.com/PuerkitoBio/goquery
+  version: e1271ee34c6a305e38566ecd27ae374944907ee9
+- name: github.com/sclevine/agouti
+  version: dfc6680bb9fcb3f3d3b6f506a1d1e77fbc9c9613
+- name: golang.org/x/net
+  version: f5079bd7f6f74e23c4d65efa0f4ce14cbd6a3c0f
+  subpackages:
+  - html
+  - html/atom
+- name: golang.org/x/text
+  version: ab5ac5f9a8deb4855a60fab02bc61a4ec770bd49
+  subpackages:
+  - encoding
+  - encoding/internal
+  - encoding/internal/identifier
+  - encoding/simplifiedchinese
+  - transform
+- name: gopkg.in/mgo.v2
+  version: 3f83fa5005286a7fe593b055f0d7771a7dce4655
+testImports: []
