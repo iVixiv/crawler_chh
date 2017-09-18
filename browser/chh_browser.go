@@ -29,5 +29,8 @@ func (chh_browser Chh_browser) LoadHtmlDoc(url string) (*goquery.Document, error
 		return nil, fmt.Errorf("page.HTML() : %s", err.Error())
 	}
 	doc, err := goquery.NewDocumentFromReader(strings.NewReader(html))
-	return doc, fmt.Errorf("goquery.NewDocumentFromReader() : %s", err.Error())
+	if err != nil {
+		return nil, fmt.Errorf("goquery.NewDocumentFromReader() : %s", err.Error())
+	}
+	return doc, nil
 }
